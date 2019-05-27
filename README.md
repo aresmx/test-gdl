@@ -1,6 +1,63 @@
-REQUIREMENTS
+# Employee REST server
 
-Employee REST server
+GithubRepository
+```bash
+$ git clone https://github.com/aresmx/test-gdl.git
+```
+
+#####################
+## Backend Module ##
+#####################
+
+### Built With
+- Java 8                    [JAVA](http://www.oracle.com/technetwork/java/javaee/overview/index.html)
+- Spring Framework 5.x.x    [SPRING](https://projects.spring.io/spring-framework/)
+- Spring Data 2.x.x         [SPRING-DATA](https://projects.spring.io/spring-data/)
+- Maven                     [MAVEN](https://maven.apache.org/)
+- H2
+- Lombok
+- JPA
+
+### Prerequisites
+- Install [Java8]()
+- Install [Maven]()
+
+### Setting up Dev
+Steps in order to start the project:
+
+```bash
+cd backend
+mvn spring-boot:run
+```
+
+Port: 8095
+URL: api/employees
+
+#####################
+## Frontend Module ##
+#####################
+
+### Built With
+- ReactJs
+- BootStrap
+- PrimeReact
+
+### Prerequisites
+- Install [Node.js](https://nodejs.org/) v6.x.x LTS
+- Install [Yarn](https://yarnpkg.com) v1.x.x
+
+### Setting up Dev
+Steps in order to start the project:
+
+```bash
+cd frontend/src/main/webapp/test-app
+npm install
+yarn start
+```
+
+Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
+
+### REQUIREMENTS
 
 All data should be persisted into either memory, or externally. Please include instructions on how to run and interact with the web server.
 Please demonstrate use of Java 8

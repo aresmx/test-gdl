@@ -24,7 +24,8 @@ class Employee extends Component {
             method: 'DELETE',
             headers: {
                 'Accept': 'application/json',
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': 'true'
             }
         }).then(() => {
             let updatedEmployees = [...this.state.employees].filter(i => i.id !== id);

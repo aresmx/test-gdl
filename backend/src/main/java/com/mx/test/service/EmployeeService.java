@@ -4,6 +4,9 @@ import com.mx.test.data.Employee;
 
 import java.util.List;
 
+/**
+ * FACADE PATTERN - GREAT WAY TO HIDE THE BUSINESS
+ */
 public interface EmployeeService {
     Employee findById(Integer id);
 

@@ -9,6 +9,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * DAO PATTERN WITH SPRING DATA - READY AND EASY TO USE
+ * */
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 
